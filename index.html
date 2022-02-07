@@ -1,0 +1,71 @@
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+    <title>JS innerHTML</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="cena";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="odpowiedź";
+    }   
+	function z3()
+    {
+        document.getElementById("z3").innerHTML="ten kto miał największą głowę :D";
+    }
+	function z4()
+    {
+        document.getElementById("z3").innerHTML="odpowiedź";
+    }   
+	function z5()
+    {
+        document.getElementById("z5").innerHTML="właściwie każde bo budynki nie skaczą";
+    }
+	function z6()
+    {
+        document.getElementById("z5").innerHTML="odpowiedź";
+    }   
+</script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<center>
+<h1><strong>Zagadki logiczne</strong></h1>
+<h2>Zagadka nr 1:  </h2>
+   <p>
+    Nie je nie pije a rośnie. Co to jest ?
+    </p>
+    <div id="z1">odpowiedź</div>
+</br></br>
+<input type="button" value="zobacz odpowiedź" onclick="z1()">
+</br>
+</br>
+<input type="button" value="ukryj odpowiedź" onclick="z2()">
+
+<h2>Zagadka nr 2:  </h2>
+   <p>
+    Kto za czasów Napoleona nosił największy kapelusz ?
+    </p>
+    <div id="z3">odpowiedź</div>
+</br></br>
+<input type="button" value="zobacz odpowiedź" onclick="z3()">
+</br>
+</br>
+<input type="button" value="ukryj odpowiedź" onclick="z4()">
+
+
+<h2>Zagadka nr 3:  </h2>
+   <p>
+    Jakie zwierzę może skakać wyżej niż budynek?
+    </p>
+    <div id="z5">odpowiedź</div>
+</br></br>
+<input type="button" value="zobacz odpowiedź" onclick="z5()">
+</br>
+</br>
+<input type="button" value="ukryj odpowiedź" onclick="z6()">
+</body>
